@@ -25,3 +25,12 @@ Master enterprise-grade patterns for production voice AI systems.
 - Completed Level 2 certification
 - Experience with production systems
 - Understanding of security concepts
+
+## Assessment
+
+Complete all modules and labs, then take the assessments:
+
+- [Written Exam](a3-written-exam) - 30 questions, 45 minutes
+- [Practical Exam](a3-practical-exam) - Hands-on project, 2 hours
+
+[Take Level 3 Written Exam](https://classroom.github.com/a/pVQv2MIP){: .btn .btn-primary }
