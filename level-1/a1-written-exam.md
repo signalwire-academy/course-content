@@ -12,9 +12,11 @@ nav_order: 99
 <small>Accept the assignment to get your exam repository. Submit answers by creating an issue.</small>
 </p>
 
-**Duration:** 45 minutes
-**Questions:** 30
-**Passing Score:** 70% (21 correct)
+| | |
+|--|--|
+| **Duration** | 45 minutes |
+| **Questions** | 30 |
+| **Passing Score** | 70% (21 correct) |
 
 ---
 
