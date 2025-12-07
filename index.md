@@ -14,9 +14,9 @@ This certification program teaches you to build production-ready voice AI agents
 
 | Level | Focus | Duration |
 |-------|-------|----------|
-| **Level 1** | Foundations | 2-3 weeks |
-| **Level 2** | Intermediate Development | 3-4 weeks |
-| **Level 3** | Advanced & Enterprise | 4-6 weeks |
+| **Level 1** | Foundations | 2-3 days |
+| **Level 2** | Intermediate Development | 3-4 days |
+| **Level 3** | Advanced & Enterprise | 2-3 days |
 
 ## Getting Started
 
