@@ -26,3 +26,12 @@ Build on your foundation with intermediate concepts and real-world integrations.
 - Completed Level 1 certification
 - Familiarity with REST APIs
 - Basic understanding of async programming
+
+## Assessment
+
+Complete all modules and labs, then take the assessments:
+
+- [Written Exam](a2-written-exam) - 30 questions, 45 minutes
+- [Practical Exam](a2-practical-exam) - Hands-on project, 2 hours
+
+[Take Level 2 Written Exam](https://classroom.github.com/a/mJdZ7m7L){: .btn .btn-primary }
