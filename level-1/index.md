@@ -33,7 +33,9 @@ Work through the modules in order to build a solid foundation.
 
 Complete all modules and labs, then take the assessments:
 
-- [Written Exam](a1-written-exam) - 30 questions, 45 minutes
-- [Practical Exam](a1-practical-exam) - Hands-on project, 2 hours
+- [Written Exam](a1-written-exam) — 30 questions, 45 minutes
+- [Practical Exam](a1-practical-exam) — Hands-on project, 2 hours
 
-[Take Level 1 Written Exam](https://classroom.github.com/a/jFD8thkh){: .btn .btn-primary }
+<p style="background: #e7f3fe; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;">
+<strong>📝 Ready to certify?</strong> <a href="https://classroom.github.com/a/jFD8thkh" target="_blank"><strong>Start Level 1 Written Exam</strong></a>
+</p>
