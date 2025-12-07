@@ -33,15 +33,15 @@ D) ToolResponse
 
 ### Question 2
 
-Which method chains multiple actions to a function result?
+Which method transfers a call to another number?
 
-A) `.chain_action()`
+A) `.transfer()`
 
-B) `.append_action()`
+B) `.forward()`
 
-C) `.add_action()`
+C) `.connect()`
 
-D) `.with_action()`
+D) `.dial()`
 
 ### Question 3
 
@@ -99,7 +99,7 @@ A)
 
 ```python
 SwaigFunctionResult("Transferring...")
-.add_action("transfer", {"dest": "+1555"}, post_process=True)
+.connect("+1555", final=True)
 ```
 
 B)
@@ -302,7 +302,7 @@ How do you switch to a different context from a function?
 
 A) `SwaigFunctionResult().switch_context("name")`
 
-B) `SwaigFunctionResult().add_action("context_switch", {"context": "name"})`
+B) `SwaigFunctionResult().swml_change_context("name")`
 
 C) `SwaigFunctionResult().goto_context("name")`
 
