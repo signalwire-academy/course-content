@@ -5,6 +5,13 @@ parent: "Level 1: Foundations"
 nav_order: 99
 ---
 
+
+> **Take this exam:** [Start Level 1 Written Exam](https://classroom.github.com/a/jFD8thkh)
+>
+> Click the link above to accept the exam assignment in GitHub Classroom.
+> You will submit your answers by creating an issue in your exam repository.
+
+
 ## Certified Agent Developer
 
 **Duration:** 45 minutes
