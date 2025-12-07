@@ -30,7 +30,9 @@ Master enterprise-grade patterns for production voice AI systems.
 
 Complete all modules and labs, then take the assessments:
 
-- [Written Exam](a3-written-exam) - 30 questions, 45 minutes
-- [Practical Exam](a3-practical-exam) - Hands-on project, 2 hours
+- [Written Exam](a3-written-exam) — 50 questions, 75 minutes
+- [Practical Exam](a3-practical-exam) — Hands-on project, 2 hours
 
-[Take Level 3 Written Exam](https://classroom.github.com/a/pVQv2MIP){: .btn .btn-primary }
+<p style="background: #e7f3fe; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;">
+<strong>📝 Ready to certify?</strong> <a href="https://classroom.github.com/a/pVQv2MIP" target="_blank"><strong>Start Level 3 Written Exam</strong></a>
+</p>
