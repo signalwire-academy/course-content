@@ -5,6 +5,13 @@ parent: "Level 3: Advanced"
 nav_order: 99
 ---
 
+
+> **Take this exam:** [Start Level 3 Written Exam](https://classroom.github.com/a/pVQv2MIP)
+>
+> Click the link above to accept the exam assignment in GitHub Classroom.
+> You will submit your answers by creating an issue in your exam repository.
+
+
 **Time Allowed:** 75 minutes
 **Passing Score:** 80% (40/50)
 **Format:** Multiple choice, short answer, and architecture questions
