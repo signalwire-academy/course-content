@@ -5,8 +5,20 @@ parent: "Level 2: Intermediate"
 nav_order: 99
 ---
 
-**Time Allowed:** 3 hours
-**Passing Criteria:** All requirements met, code runs without errors
+# Level 2 Practical Assessment
+
+<p style="background: #e7f3fe; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;">
+<strong>🎯 Assignment:</strong> <a href="https://classroom.github.com/a/ggT8AM4T" target="_blank"><strong>Accept this exam on GitHub Classroom</strong></a><br>
+<small>You'll get your own repository. Submit your code and a recording (wav, mp3, or mp4) of your live demo.</small>
+</p>
+
+## Certified Agent Engineer
+
+| | |
+|--|--|
+| **Duration** | 3 hours |
+| **Passing Criteria** | All requirements met, code runs without errors |
+| **Grading** | Manually graded by instructor |
 
 ---
 
