@@ -61,3 +61,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .gitignore
+
+# Kramdown settings for parsing markdown inside HTML
+kramdown:
+  parse_block_html: true
