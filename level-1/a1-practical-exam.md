@@ -1,0 +1,231 @@
+---
+layout: default
+title: "Level 1 Practical Assessment"
+parent: "Level 1: Foundations"
+nav_order: 99
+---
+
+## Certified Agent Developer
+
+**Duration:** 2 hours
+**Passing Score:** 70%
+
+---
+
+## Overview
+
+Build a complete voice AI agent based on the requirements below. You will be evaluated on:
+
+- Agent functionality (40%)
+- Code quality (20%)
+- SWAIG functions (25%)
+- Live demonstration (15%)
+
+---
+
+## Scenario
+
+**TechSupport Inc.** needs a voice AI agent for their customer support line. Customers call to:
+
+1. Get help with common technical issues
+2. Check the status of support tickets
+3. Create new support tickets
+
+---
+
+## Requirements
+
+### Part 1: Basic Agent Setup (25 points)
+
+Create an agent with:
+
+- [ ] Appropriate name and route
+- [ ] Professional prompt with clear role definition
+- [ ] At least 3 prompt sections (Role, Guidelines, Process)
+- [ ] Voice configuration with appropriate voice selection
+- [ ] At least 3 filler phrases
+- [ ] Basic authentication configured
+
+**Deliverable:** `techsupport_agent.py`
+
+---
+
+### Part 2: SWAIG Functions (40 points)
+
+Implement two functions:
+
+#### Function 1: Check Ticket Status (20 points)
+
+```text
+Name: check_ticket_status
+Parameter: ticket_id (string)
+```
+
+Requirements:
+
+- [ ] Accept ticket ID as parameter
+- [ ] Return status for valid tickets
+- [ ] Handle invalid ticket IDs gracefully
+- [ ] Include helpful information in response
+
+Use this mock data:
+
+```python
+TICKETS = {
+    "T-1001": {"status": "open", "issue": "Login problems", "created": "Monday"},
+    "T-1002": {"status": "in_progress", "issue": "Slow performance", "created": "Tuesday"},
+    "T-1003": {"status": "resolved", "issue": "Password reset", "created": "Last week"},
+}
+```
+
+#### Function 2: Create Support Ticket (20 points)
+
+```text
+Name: create_ticket
+Parameters:
+  - issue_type (string, enum: ["login", "performance", "billing", "other"])
+  - description (string)
+```
+
+Requirements:
+
+- [ ] Accept issue type and description
+- [ ] Generate a ticket number (can be mock)
+- [ ] Return confirmation with ticket number
+- [ ] Use appropriate fillers while "processing"
+
+---
+
+### Part 3: Testing (15 points)
+
+Demonstrate using swaig-test:
+
+- [ ] Show `--list-tools` output with both functions
+- [ ] Execute `check_ticket_status` with valid ticket
+- [ ] Execute `check_ticket_status` with invalid ticket
+- [ ] Execute `create_ticket` with parameters
+- [ ] Show `--dump-swml` output
+
+**Deliverable:** Screenshot or terminal log of tests
+
+---
+
+### Part 4: Live Demonstration (20 points)
+
+Deploy and demonstrate:
+
+- [ ] Agent running locally
+- [ ] ngrok tunnel active
+- [ ] SignalWire phone number configured
+- [ ] Make live call demonstrating:
+  - Greeting and conversation flow
+  - Checking a ticket status
+  - Creating a new ticket
+
+**Evaluation Criteria:**
+
+- Natural conversation flow
+- Functions called appropriately
+- Error handling works
+- Professional voice experience
+
+---
+
+## Submission Requirements
+
+1. **Code File:** `techsupport_agent.py`
+2. **Test Output:** Screenshots or copy of swaig-test results
+3. **Configuration:** SignalWire URL used
+4. **Demo Notes:** Brief notes on your live call
+
+---
+
+## Grading Rubric
+
+### Part 1: Basic Agent Setup (25 points)
+
+| Criteria | Points |
+|----------|--------|
+| Agent name and route configured | 3 |
+| Role prompt is clear and appropriate | 5 |
+| Multiple prompt sections used | 5 |
+| Voice properly configured | 4 |
+| Filler phrases included | 4 |
+| Authentication configured | 4 |
+
+### Part 2: SWAIG Functions (40 points)
+
+| Criteria | Points |
+|----------|--------|
+| check_ticket_status - correct decorator | 4 |
+| check_ticket_status - parameter defined | 4 |
+| check_ticket_status - returns SwaigFunctionResult | 4 |
+| check_ticket_status - handles valid tickets | 4 |
+| check_ticket_status - handles invalid tickets | 4 |
+| create_ticket - correct decorator | 4 |
+| create_ticket - enum parameter works | 4 |
+| create_ticket - both parameters defined | 4 |
+| create_ticket - returns confirmation | 4 |
+| create_ticket - fillers configured | 4 |
+
+### Part 3: Testing (15 points)
+
+| Criteria | Points |
+|----------|--------|
+| --list-tools shows both functions | 3 |
+| Valid ticket lookup works | 3 |
+| Invalid ticket handled | 3 |
+| Create ticket works | 3 |
+| SWML output valid | 3 |
+
+### Part 4: Live Demonstration (20 points)
+
+| Criteria | Points |
+|----------|--------|
+| Agent starts and responds | 4 |
+| Conversation is natural | 4 |
+| Ticket lookup works via voice | 4 |
+| Ticket creation works via voice | 4 |
+| Error cases handled gracefully | 4 |
+
+---
+
+## Starter Template
+
+```python
+#!/usr/bin/env python3
+"""TechSupport Agent - Level 1 Assessment"""
+
+import os
+from signalwire_agents import AgentBase, SwaigFunctionResult
+
+# Your code here...
+
+if __name__ == "__main__":
+    agent.run()
+```
+
+---
+
+## Tips
+
+1. **Start simple** - Get the basic agent working first
+2. **Test incrementally** - Use swaig-test after each change
+3. **Read error messages** - They tell you what's wrong
+4. **Check the SWML** - Verify your configuration appears
+5. **Practice the call** - Do a dry run before assessment
+
+---
+
+## Time Management
+
+| Task | Suggested Time |
+|------|----------------|
+| Part 1: Setup | 30 minutes |
+| Part 2: Functions | 45 minutes |
+| Part 3: Testing | 15 minutes |
+| Part 4: Demo | 30 minutes |
+
+---
+
+Good luck!
