@@ -2,8 +2,8 @@
 
 title: SignalWire AI Agents Certification
 description: Official certification program for building voice AI agents
-url: https://signalwire-academy.github.io
-baseurl: /course-content
+url: https://signalwire.academy
+baseurl: ""
 
 remote_theme: just-the-docs/just-the-docs
 
