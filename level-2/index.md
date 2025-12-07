@@ -31,7 +31,9 @@ Build on your foundation with intermediate concepts and real-world integrations.
 
 Complete all modules and labs, then take the assessments:
 
-- [Written Exam](a2-written-exam) - 30 questions, 45 minutes
-- [Practical Exam](a2-practical-exam) - Hands-on project, 2 hours
+- [Written Exam](a2-written-exam) — 40 questions, 60 minutes
+- [Practical Exam](a2-practical-exam) — Hands-on project, 2 hours
 
-[Take Level 2 Written Exam](https://classroom.github.com/a/mJdZ7m7L){: .btn .btn-primary }
+<p style="background: #e7f3fe; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;">
+<strong>📝 Ready to certify?</strong> <a href="https://classroom.github.com/a/mJdZ7m7L" target="_blank"><strong>Start Level 2 Written Exam</strong></a>
+</p>
