@@ -5,6 +5,13 @@ parent: "Level 2: Intermediate"
 nav_order: 99
 ---
 
+
+> **Take this exam:** [Start Level 2 Written Exam](https://classroom.github.com/a/mJdZ7m7L)
+>
+> Click the link above to accept the exam assignment in GitHub Classroom.
+> You will submit your answers by creating an issue in your exam repository.
+
+
 **Time Allowed:** 60 minutes
 **Passing Score:** 80% (32/40)
 **Format:** Multiple choice and short answer
