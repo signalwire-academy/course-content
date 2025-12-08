@@ -329,3 +329,7 @@ Submit your answers via GitHub Classroom. Your exam will be auto-graded.
 - 36-40 correct: Excellent
 - 32-35 correct: Good (Pass)
 - Below 32: Review required
+
+---
+
+**Next:** [Level 2 Practical Exam](a2-practical-exam)

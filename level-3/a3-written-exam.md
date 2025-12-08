@@ -351,3 +351,7 @@ Submit your answers via GitHub Classroom. Your exam will be auto-graded.
 - 45-50 correct: Excellent
 - 40-44 correct: Good (Pass)
 - Below 40: Review required
+
+---
+
+**Next:** [Level 3 Practical Exam](a3-practical-exam)

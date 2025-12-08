@@ -231,3 +231,7 @@ Submit your answers via GitHub Classroom. Your exam will be auto-graded.
 - 24-26 correct: Good
 - 21-23 correct: Pass
 - Below 21: Review required
+
+---
+
+**Next:** [Level 1 Practical Exam](a1-practical-exam)
