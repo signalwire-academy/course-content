@@ -1,0 +1,17 @@
++---------------------------------------------------------+
+|                  PCI-DSS Requirements                   |
++---------------------------------------------------------+
+|                                                         |
+|   DON'T:                                                |
+|   • Record full card numbers                            |
+|   • Store CVV∕CVC codes                                 |
+|   • Log card data                                       |
+|   • Display full card number                            |
+|                                                         |
+|   DO:                                                   |
+|   • Pause recording during collection                   |
+|   • Use secure functions                                |
+|   • Only store last 4 digits                            |
+|   • Use tokenization                                    |
+|                                                         |
++---------------------------------------------------------+

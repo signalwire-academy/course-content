@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="392" height="409" viewBox="0 0 392 409" font-family="Menlo,Lucida Console,monospace">
+<style type="text/css">
+svg {
+   color: #333333;
+}
+@media (prefers-color-scheme: dark) {
+   svg {
+      color-scheme: dark; /* ask the browser for a dark background */
+      color: #FFFFFF;
+   }
+}
+</style>
+<g transform='translate(8,16)'>
+<path d='M 24,0 L 136,0' fill='none' stroke='currentColor'></path>
+<path d='M 24,32 L 80,32' fill='none' stroke='currentColor'></path>
+<path d='M 80,32 L 136,32' fill='none' stroke='currentColor'></path>
+<path d='M 24,80 L 136,80' fill='none' stroke='currentColor'></path>
+<path d='M 264,80 L 376,80' fill='none' stroke='currentColor'></path>
+<path d='M 144,96 L 256,96' fill='none' stroke='currentColor'></path>
+<path d='M 24,128 L 80,128' fill='none' stroke='currentColor'></path>
+<path d='M 80,128 L 136,128' fill='none' stroke='currentColor'></path>
+<path d='M 264,128 L 320,128' fill='none' stroke='currentColor'></path>
+<path d='M 320,128 L 376,128' fill='none' stroke='currentColor'></path>
+<path d='M 24,176 L 136,176' fill='none' stroke='currentColor'></path>
+<path d='M 144,192 L 320,192' fill='none' stroke='currentColor'></path>
+<path d='M 24,224 L 80,224' fill='none' stroke='currentColor'></path>
+<path d='M 80,224 L 136,224' fill='none' stroke='currentColor'></path>
+<path d='M 24,272 L 136,272' fill='none' stroke='currentColor'></path>
+<path d='M 24,304 L 80,304' fill='none' stroke='currentColor'></path>
+<path d='M 80,304 L 136,304' fill='none' stroke='currentColor'></path>
+<path d='M 24,352 L 136,352' fill='none' stroke='currentColor'></path>
+<path d='M 24,384 L 136,384' fill='none' stroke='currentColor'></path>
+<path d='M 24,0 L 24,32' fill='none' stroke='currentColor'></path>
+<path d='M 24,80 L 24,128' fill='none' stroke='currentColor'></path>
+<path d='M 24,176 L 24,224' fill='none' stroke='currentColor'></path>
+<path d='M 24,272 L 24,304' fill='none' stroke='currentColor'></path>
+<path d='M 24,352 L 24,384' fill='none' stroke='currentColor'></path>
+<path d='M 80,32 L 80,64' fill='none' stroke='currentColor'></path>
+<path d='M 80,128 L 80,160' fill='none' stroke='currentColor'></path>
+<path d='M 80,224 L 80,256' fill='none' stroke='currentColor'></path>
+<path d='M 80,304 L 80,336' fill='none' stroke='currentColor'></path>
+<path d='M 136,0 L 136,32' fill='none' stroke='currentColor'></path>
+<path d='M 136,80 L 136,128' fill='none' stroke='currentColor'></path>
+<path d='M 136,176 L 136,224' fill='none' stroke='currentColor'></path>
+<path d='M 136,272 L 136,304' fill='none' stroke='currentColor'></path>
+<path d='M 136,352 L 136,384' fill='none' stroke='currentColor'></path>
+<path d='M 264,80 L 264,128' fill='none' stroke='currentColor'></path>
+<path d='M 320,128 L 320,192' fill='none' stroke='currentColor'></path>
+<path d='M 376,80 L 376,128' fill='none' stroke='currentColor'></path>
+<path d='M 80,64 L 80,72' fill='none' stroke='currentColor'></path>
+<polygon points='96.000000,64.000000 84.000000,58.400002 84.000000,69.599998' fill='currentColor' transform='rotate(90.000000, 80.000000, 64.000000)'></polygon>
+<path d='M 80,160 L 80,168' fill='none' stroke='currentColor'></path>
+<polygon points='96.000000,160.000000 84.000000,154.399994 84.000000,165.600006' fill='currentColor' transform='rotate(90.000000, 80.000000, 160.000000)'></polygon>
+<path d='M 80,256 L 80,264' fill='none' stroke='currentColor'></path>
+<polygon points='96.000000,256.000000 84.000000,250.399994 84.000000,261.600006' fill='currentColor' transform='rotate(90.000000, 80.000000, 256.000000)'></polygon>
+<path d='M 80,336 L 80,344' fill='none' stroke='currentColor'></path>
+<polygon points='96.000000,336.000000 84.000000,330.399994 84.000000,341.600006' fill='currentColor' transform='rotate(90.000000, 80.000000, 336.000000)'></polygon>
+<polygon points='152.000000,192.000000 140.000000,186.399994 140.000000,197.600006' fill='currentColor' transform='rotate(180.000000, 144.000000, 192.000000)'></polygon>
+<polygon points='264.000000,96.000000 252.000000,90.400002 252.000000,101.599998' fill='currentColor' transform='rotate(0.000000, 256.000000, 96.000000)'></polygon>
+<style>
+  text {
+       text-anchor: middle;
+       font-family: "Menlo","Lucida Console","monospace";
+       fill: currentColor;
+       font-size: 1em;
+  }
+</style>
+<text x='56' y='20'>S</text>
+<text x='64' y='20'>t</text>
+<text x='72' y='20'>a</text>
+<text x='80' y='20'>r</text>
+<text x='88' y='20'>t</text>
+<text x='176' y='84'>i</text>
+<text x='184' y='84'>n</text>
+<text x='192' y='84'>v</text>
+<text x='200' y='84'>a</text>
+<text x='208' y='84'>l</text>
+<text x='216' y='84'>i</text>
+<text x='224' y='84'>d</text>
+<text x='48' y='100'>C</text>
+<text x='56' y='100'>o</text>
+<text x='64' y='100'>l</text>
+<text x='72' y='100'>l</text>
+<text x='80' y='100'>e</text>
+<text x='88' y='100'>c</text>
+<text x='96' y='100'>t</text>
+<text x='296' y='100'>E</text>
+<text x='304' y='100'>r</text>
+<text x='312' y='100'>r</text>
+<text x='320' y='100'>o</text>
+<text x='328' y='100'>r</text>
+<text x='56' y='116'>N</text>
+<text x='64' y='116'>a</text>
+<text x='72' y='116'>m</text>
+<text x='80' y='116'>e</text>
+<text x='288' y='116'>H</text>
+<text x='296' y='116'>a</text>
+<text x='304' y='116'>n</text>
+<text x='312' y='116'>d</text>
+<text x='320' y='116'>l</text>
+<text x='328' y='116'>i</text>
+<text x='336' y='116'>n</text>
+<text x='344' y='116'>g</text>
+<text x='96' y='148'>v</text>
+<text x='104' y='148'>a</text>
+<text x='112' y='148'>l</text>
+<text x='120' y='148'>i</text>
+<text x='128' y='148'>d</text>
+<text x='48' y='196'>C</text>
+<text x='56' y='196'>o</text>
+<text x='64' y='196'>l</text>
+<text x='72' y='196'>l</text>
+<text x='80' y='196'>e</text>
+<text x='88' y='196'>c</text>
+<text x='96' y='196'>t</text>
+<text x='56' y='212'>E</text>
+<text x='64' y='212'>m</text>
+<text x='72' y='212'>a</text>
+<text x='80' y='212'>i</text>
+<text x='88' y='212'>l</text>
+<text x='48' y='292'>C</text>
+<text x='56' y='292'>o</text>
+<text x='64' y='292'>n</text>
+<text x='72' y='292'>f</text>
+<text x='80' y='292'>i</text>
+<text x='88' y='292'>r</text>
+<text x='96' y='292'>m</text>
+<text x='48' y='372'>C</text>
+<text x='56' y='372'>o</text>
+<text x='64' y='372'>m</text>
+<text x='72' y='372'>p</text>
+<text x='80' y='372'>l</text>
+<text x='88' y='372'>e</text>
+<text x='96' y='372'>t</text>
+<text x='104' y='372'>e</text>
+</g>
+
+</svg>

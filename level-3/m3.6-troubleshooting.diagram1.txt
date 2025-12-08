@@ -1,0 +1,25 @@
+Issue Detected
+     |
+     +--- Agent not responding?
+     |         |
+     |         +-- Check: Network connectivity
+     |         +-- Check: Authentication
+     |         +-- Check: Health endpoint
+     |
+     +--- Wrong understanding?
+     |         |
+     |         +-- Check: STT configuration
+     |         +-- Check: Language settings
+     |         +-- Check: Hints∕vocabulary
+     |
+     +--- Wrong actions?
+     |         |
+     |         +-- Check: Prompt clarity
+     |         +-- Check: Function parameters
+     |         +-- Check: Context state
+     |
+     +--- Slow responses?
+               |
+               +-- Check: Function latency
+               +-- Check: External API times
+               +-- Check: Cold start issues

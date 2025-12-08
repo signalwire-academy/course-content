@@ -1,0 +1,6 @@
+Context: Appointment Booking
++-- Step 1: Get Service Type
++-- Step 2: Get Preferred Date
++-- Step 3: Get Preferred Time
++-- Step 4: Confirm Details
++-- Step 5: Complete Booking

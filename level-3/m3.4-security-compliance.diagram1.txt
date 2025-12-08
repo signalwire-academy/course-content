@@ -1,0 +1,20 @@
++-----------------------------------------------------------+
+|                    Attack Vectors                         |
++-----------------------------------------------------------+
+|                                                           |
+|   Caller ----------> Phone System ----------> Agent       |
+|      |                    |                    |          |
+|      | Social             | Network            | Prompt   |
+|      | Engineering        | Attacks            | Injection|
+|      |                    |                    |          |
+|      v                    v                    v          |
+|   Impersonation      Interception        Manipulation     |
+|                                                           |
+|   Agent ----------> APIs ----------> Data                 |
+|      |                |                |                  |
+|      | Injection      | Auth           | Exposure         |
+|      |                | Bypass         |                  |
+|      v                v                v                  |
+|   Command           Unauthorized      PII Leak            |
+|   Execution         Access                                |
++-----------------------------------------------------------+

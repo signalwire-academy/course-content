@@ -274,34 +274,7 @@ Create `deployment/` directory with:
 
 ## Submission Structure
 
-```diagram
-telehealth/
-├── architecture/
-│   ├── overview.md
-│   ├── diagram.md
-│   └── adr/
-│       ├── 001-agent-structure.md
-│       ├── 002-hipaa-compliance.md
-│       └── 003-knowledge-strategy.md
-├── agents/
-│   ├── gateway_agent.py
-│   └── patient_agent.py
-├── knowledge/
-│   ├── symptoms.md
-│   └── medications.md
-├── shared/
-│   ├── logging_config.py
-│   └── metrics.py
-├── config/
-│   └── alerts.yml
-├── deployment/
-│   ├── Dockerfile
-│   ├── docker-compose.yml
-│   └── .env.example
-├── tests/
-│   └── test_verification.py
-└── README.md
-```
+![telehealth/](a3-practical-exam.diagram1.png)
 
 ---
 

@@ -1,0 +1,7 @@
++-------------+         +-------------+         +-------------+
+|  SignalWire | --X-->  |  Firewall   | --X-->  | Your Agent  |
+|   Cloud     |         |  NAT∕Router |         | localhost   |
++-------------+         +-------------+         +-------------+
+                              ^
+                              |
+                    Cannot reach directly!

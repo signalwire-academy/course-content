@@ -1,0 +1,11 @@
++-----------------------------------------------------------------+
+| < Back to Resources                                             |
+|                                                                 |
+| my-agent                                                        |
+| ec50544b-1c17-4c04-abac-9f480e74b398                            |
+|                                                                 |
+| Associated With        Resource Type        Last Updated        |
+| 0 Addresses            SWML Webhook         less than 5 sec ago |
++-----------------------------------------------------------------+
+| [Configuration]  [Addresses & Phone Numbers]                    |
++-----------------------------------------------------------------+
