@@ -361,8 +361,8 @@ def main():
                         help="Don't modify markdown files")
     parser.add_argument('--dry-run', action='store_true',
                         help='Show what would be done without making changes')
-    parser.add_argument('--dpi', type=int, default=72,
-                        help='PNG DPI (default: 72)')
+    parser.add_argument('--dpi', type=int, default=200,
+                        help='PNG DPI (default: 200)')
     parser.add_argument('--scale', type=float, default=1.0,
                         help='PNG scale factor (default: 1.0)')
     parser.add_argument('--color', default='#333333',
