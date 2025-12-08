@@ -219,6 +219,6 @@ ngrok http 5000
 
 ## Getting Help
 
-- SignalWire Documentation: <https://developer.signalwire.com>
+- AI Agents SDK Documentation: <https://developer.signalwire.com/sdks/agents-sdk>
 - SDK Repository: <https://github.com/signalwire/signalwire-agents>
 - Training Support: Contact your instructor

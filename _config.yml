@@ -30,7 +30,7 @@ footer_content: "SignalWire AI Agents Certification Program"
 
 # External links
 aux_links:
-  SignalWire Docs: https://developer.signalwire.com
+  SDK Docs: https://developer.signalwire.com/sdks/agents-sdk
   GitHub: https://github.com/signalwire-academy
 
 aux_links_new_tab: true
