@@ -37,5 +37,5 @@ Complete all modules and labs, then take the assessments:
 - [Practical Exam](a1-practical-exam) — Hands-on project, 2 hours
 
 <p style="background: #e7f3fe; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;">
-<strong>📝 Ready to certify?</strong> <a href="https://classroom.github.com/a/mJzD3NS1" target="_blank"><strong>Start Level 1 Written Exam</strong></a>
+<strong>📝 Ready to certify?</strong> <a href="https://classroom.github.com/a/Y57ToZHj" target="_blank"><strong>Start Level 1 Written Exam</strong></a>
 </p>
