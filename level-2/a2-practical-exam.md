@@ -243,7 +243,6 @@ After passing automated checks, an instructor will review:
 import os
 from datetime import datetime
 from signalwire_agents import AgentBase, SwaigFunctionResult
-from signalwire_agents.contexts import ContextBuilder
 
 
 class TechSupportAgent(AgentBase):
@@ -305,23 +304,27 @@ class TechSupportAgent(AgentBase):
         })
 
     def _setup_contexts(self):
+        contexts = self.define_contexts()
+
         # Greeting context
-        greeting = ContextBuilder("greeting")
-        greeting.add_step("Welcome to TechSupport Pro! How can I help you today?")
-        greeting.set_functions(["identify_customer", "get_status"])
-        self.add_context(greeting)
+        greeting = contexts.add_context("greeting")
+        greeting.add_step("welcome") \
+            .set_text("Welcome to TechSupport Pro! How can I help you today?") \
+            .set_functions(["identify_customer", "get_status"]) \
+            .set_valid_contexts(["triage"])
 
         # Triage context
-        triage = ContextBuilder("triage")
-        triage.add_step("I can help you with that. Let me get some details.")
-        triage.set_functions(["describe_issue", "create_ticket", "check_knowledge_base"])
-        self.add_context(triage)
+        triage = contexts.add_context("triage")
+        triage.add_step("assess") \
+            .set_text("I can help you with that. Let me get some details.") \
+            .set_functions(["describe_issue", "create_ticket", "check_knowledge_base"]) \
+            .set_valid_contexts(["resolution"])
 
         # Resolution context
-        resolution = ContextBuilder("resolution")
-        resolution.add_step("Let's work on resolving this for you.")
-        resolution.set_functions(["resolve_ticket", "escalate_ticket", "schedule_callback", "secure_mode"])
-        self.add_context(resolution)
+        resolution = contexts.add_context("resolution")
+        resolution.add_step("resolve") \
+            .set_text("Let's work on resolving this for you.") \
+            .set_functions(["resolve_ticket", "escalate_ticket", "schedule_callback", "secure_mode"])
 
     def _setup_functions(self):
         # Implementation of all required functions
