@@ -2,7 +2,7 @@
 layout: default
 title: "Level 3 Written Exam"
 parent: "Level 3: Advanced"
-nav_order: 99
+nav_order: 98
 ---
 
 ## Certified Voice AI Architect

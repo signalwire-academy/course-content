@@ -2,7 +2,7 @@
 layout: default
 title: "Level 2 Written Exam"
 parent: "Level 2: Intermediate"
-nav_order: 99
+nav_order: 98
 ---
 
 ## Certified Agent Engineer

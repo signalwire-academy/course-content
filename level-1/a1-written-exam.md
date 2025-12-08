@@ -2,7 +2,7 @@
 layout: default
 title: "Level 1 Written Assessment"
 parent: "Level 1: Foundations"
-nav_order: 99
+nav_order: 98
 ---
 
 ## Certified Agent Developer
