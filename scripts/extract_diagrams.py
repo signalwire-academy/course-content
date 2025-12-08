@@ -363,8 +363,8 @@ def main():
                         help='Show what would be done without making changes')
     parser.add_argument('--dpi', type=int, default=72,
                         help='PNG DPI (default: 72)')
-    parser.add_argument('--scale', type=float, default=0.70,
-                        help='PNG scale factor (default: 0.70)')
+    parser.add_argument('--scale', type=float, default=1.0,
+                        help='PNG scale factor (default: 1.0)')
     parser.add_argument('--color', default='#333333',
                         help='SVG line color (default: #333333)')
 
