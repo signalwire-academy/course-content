@@ -17,8 +17,8 @@ nav_order: 99
 | | |
 |--|--|
 | **Duration** | 3 hours |
-| **Passing Criteria** | All requirements met, code runs without errors |
-| **Grading** | Manually graded by instructor |
+| **Passing Score** | 70% (automated) + manual review |
+| **Grading** | Automated checks + instructor review |
 
 ---
 
@@ -200,29 +200,37 @@ Submit the following files:
 
 ---
 
-## Evaluation Criteria
+## Grading Rubric
 
-### Functionality (60 points)
+### Automated Checks (85 points)
 
-- [ ] Customer identification works correctly (10)
-- [ ] State persists across function calls (10)
-- [ ] All three contexts defined properly (10)
-- [ ] Context transitions work (10)
-- [ ] All required functions implemented (15)
-- [ ] Recording controls work (5)
+These checks run automatically when you push your code:
 
-### Code Quality (25 points)
+| Criteria | Points | Type |
+|----------|--------|------|
+| Agent loads without errors | 10 | Automated |
+| Generates valid SWML | 10 | Automated |
+| identify_customer function exists | 5 | Automated |
+| identify_customer finds known customer | 10 | Automated |
+| Contexts defined | 10 | Automated |
+| describe_issue function exists | 5 | Automated |
+| create_ticket function exists | 5 | Automated |
+| resolve_ticket function exists | 5 | Automated |
+| escalate_ticket function exists | 5 | Automated |
+| create_ticket returns ticket ID | 5 | Automated |
+| Transfer capability configured | 5 | Automated |
+| Recording configured | 5 | Automated |
+| secure_mode function exists | 5 | Automated |
 
-- [ ] Clean, readable code (10)
-- [ ] Proper error handling (5)
-- [ ] Appropriate comments (5)
-- [ ] Follows SDK conventions (5)
+### Manual Review (15 points)
 
-### Deployment (15 points)
+After passing automated checks, an instructor will review:
 
-- [ ] Valid Dockerfile (5)
-- [ ] Health check configured (5)
-- [ ] Environment variables documented (5)
+| Criteria | Points |
+|----------|--------|
+| Deployment files (Dockerfile, etc.) | 5 |
+| Code quality and organization | 5 |
+| Live demonstration recording | 5 |
 
 ---
 
@@ -359,10 +367,13 @@ curl http://localhost:3000/health
 
 ## Submission Instructions
 
-1. Compress all files into `level2_exam_[your_name].zip`
-2. Include a brief README explaining any design decisions
-3. Submit via the course portal
-4. Be prepared to demonstrate your solution
+1. Implement your solution in `solution/techsupport_agent.py`
+2. Create deployment files (Dockerfile, requirements.txt, .env.example)
+3. Add your demo recording (wav, mp3, or mp4) to the repository
+4. Push to trigger auto-grading
+5. Check the "Grading Results" issue for automated feedback
+
+**Note:** After automated checks pass, your submission will be tagged for manual review by an instructor.
 
 ---
 

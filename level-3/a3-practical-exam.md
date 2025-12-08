@@ -17,8 +17,8 @@ nav_order: 99
 | | |
 |--|--|
 | **Duration** | 4 hours |
-| **Passing Criteria** | Score 80+ points across all categories |
-| **Grading** | Manually graded by instructor |
+| **Passing Score** | 70% (automated) + manual review |
+| **Grading** | Automated checks + instructor review |
 
 ---
 
@@ -305,20 +305,40 @@ telehealth/
 
 ---
 
-## Scoring Summary
+## Grading Rubric
 
-| Category | Points |
+### Automated Checks (85 points)
+
+These checks run automatically when you push your code:
+
+| Criteria | Points | Type |
+|----------|--------|------|
+| Gateway agent loads without errors | 5 | Automated |
+| Gateway generates valid SWML | 5 | Automated |
+| route_call function exists | 5 | Automated |
+| Patient agent loads without errors | 5 | Automated |
+| Patient generates valid SWML | 5 | Automated |
+| verify_patient function exists | 5 | Automated |
+| assess_symptoms function exists | 5 | Automated |
+| book_appointment function exists | 5 | Automated |
+| Has secure function marking | 5 | Automated |
+| Has multi-context workflow | 5 | Automated |
+| Has recording control | 5 | Automated |
+| route_call routes correctly | 5 | Automated |
+| verify_patient validates identity | 5 | Automated |
+| Has agent transfer capability | 5 | Automated |
+| get_hours function exists | 5 | Automated |
+| request_refill function exists | 5 | Automated |
+
+### Manual Review (15 points)
+
+After passing automated checks, an instructor will review:
+
+| Criteria | Points |
 |----------|--------|
-| Architecture Design | 20 |
-| Gateway Agent | 15 |
-| Patient Services Agent | 25 |
-| Knowledge Integration | 10 |
-| Observability | 15 |
-| Deployment | 10 |
-| Testing & Documentation | 5 |
-| **Total** | **100** |
-
-**Passing Score: 80 points**
+| Architecture design (ADRs, diagrams) | 5 |
+| Deployment configuration | 5 |
+| Live demonstration recording | 5 |
 
 ---
 
@@ -373,11 +393,16 @@ curl http://localhost:9090/metrics
 
 ---
 
-## Submission
+## Submission Instructions
 
-1. Compress complete directory as `level3_exam_[name].zip`
-2. Include all required files
-3. Verify all code runs without errors
-4. Submit via course portal
+1. Place your gateway agent in `solution/gateway_agent.py`
+2. Place your patient agent in `solution/patient_agent.py`
+3. Create all architecture files in `architecture/` directory
+4. Create deployment files in `deployment/` directory
+5. Add your demo recording (wav, mp3, or mp4) to the repository
+6. Push to trigger auto-grading
+7. Check the "Grading Results" issue for automated feedback
+
+**Note:** After automated checks pass, your submission will be tagged for manual review by an instructor.
 
 Good luck! This exam demonstrates your readiness to architect enterprise voice AI systems.

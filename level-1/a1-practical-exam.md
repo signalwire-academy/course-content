@@ -17,8 +17,8 @@ nav_order: 99
 | | |
 |--|--|
 | **Duration** | 2 hours |
-| **Passing Score** | 70% |
-| **Grading** | Manually graded by instructor |
+| **Passing Score** | 70% (automated) + manual review |
+| **Grading** | Automated checks + instructor review |
 
 ---
 
@@ -152,51 +152,31 @@ Deploy and demonstrate:
 
 ## Grading Rubric
 
-### Part 1: Basic Agent Setup (25 points)
+### Automated Checks (85 points)
+
+These checks run automatically when you push your code:
+
+| Criteria | Points | Type |
+|----------|--------|------|
+| Agent loads without errors | 10 | Automated |
+| Generates valid SWML | 10 | Automated |
+| Has prompt sections configured | 5 | Automated |
+| check_ticket_status function exists | 10 | Automated |
+| create_ticket function exists | 10 | Automated |
+| Valid ticket lookup returns data | 10 | Automated |
+| Invalid ticket handled gracefully | 5 | Automated |
+| Ticket creation returns confirmation | 5 | Automated |
+| Language configured | 10 | Automated |
+| Fillers configured | 10 | Automated |
+
+### Manual Review (15 points)
+
+After passing automated checks, an instructor will review:
 
 | Criteria | Points |
 |----------|--------|
-| Agent name and route configured | 3 |
-| Role prompt is clear and appropriate | 5 |
-| Multiple prompt sections used | 5 |
-| Voice properly configured | 4 |
-| Filler phrases included | 4 |
-| Authentication configured | 4 |
-
-### Part 2: SWAIG Functions (40 points)
-
-| Criteria | Points |
-|----------|--------|
-| check_ticket_status - correct decorator | 4 |
-| check_ticket_status - parameter defined | 4 |
-| check_ticket_status - returns SwaigFunctionResult | 4 |
-| check_ticket_status - handles valid tickets | 4 |
-| check_ticket_status - handles invalid tickets | 4 |
-| create_ticket - correct decorator | 4 |
-| create_ticket - enum parameter works | 4 |
-| create_ticket - both parameters defined | 4 |
-| create_ticket - returns confirmation | 4 |
-| create_ticket - fillers configured | 4 |
-
-### Part 3: Testing (15 points)
-
-| Criteria | Points |
-|----------|--------|
-| --list-tools shows both functions | 3 |
-| Valid ticket lookup works | 3 |
-| Invalid ticket handled | 3 |
-| Create ticket works | 3 |
-| SWML output valid | 3 |
-
-### Part 4: Live Demonstration (20 points)
-
-| Criteria | Points |
-|----------|--------|
-| Agent starts and responds | 4 |
-| Conversation is natural | 4 |
-| Ticket lookup works via voice | 4 |
-| Ticket creation works via voice | 4 |
-| Error cases handled gracefully | 4 |
+| Code quality and organization | 10 |
+| Live demonstration recording | 5 |
 
 ---
 
