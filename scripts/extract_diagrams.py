@@ -26,6 +26,7 @@ import argparse
 
 # Directories to process
 CONTENT_DIRS = [
+    ".",
     "level-1",
     "level-2",
     "level-3",

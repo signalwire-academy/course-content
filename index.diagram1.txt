@@ -1,0 +1,38 @@
++-----------------------------------------------------------------+
+|                    CERTIFICATION PATH                           |
++-----------------------------------------------------------------+
+                              |
+                              v
+              +-------------------------------+
+              |   Level 1: Foundations        |
+              |   -------------------------   |
+              |   • Environment Setup         |
+              |   • First Agent               |
+              |   • SWML Basics               |
+              |   • Live Calls                |
+              +-------------------------------+
+                              |
+                              v
+              +-------------------------------+
+              |   Level 2: Intermediate       |
+              |   -------------------------   |
+              |   • Functions & Actions       |
+              |   • Skills & DataMaps         |
+              |   • State Management          |
+              |   • Multi-Agent Systems       |
+              +-------------------------------+
+                              |
+                              v
+              +-------------------------------+
+              |   Level 3: Advanced           |
+              |   -------------------------   |
+              |   • Enterprise Architecture   |
+              |   • Security & Compliance     |
+              |   • Performance Tuning        |
+              |   • Production Deployment     |
+              +-------------------------------+
+                              |
+                              v
++-----------------------------------------------------------------+
+|           Certified SignalWire AI Agent Developer               |
++-----------------------------------------------------------------+

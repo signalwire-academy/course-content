@@ -42,18 +42,7 @@ By completing this program, you'll be able to:
 
 ## Certification Path
 
-```
-Level 1: Foundations
-    |
-    v
-Level 2: Intermediate
-    |
-    v
-Level 3: Advanced
-    |
-    v
-Certified SignalWire AI Agent Developer
-```
+![CERTIFICATION PATH](index.diagram1.png)
 
 ---
 
