@@ -34,5 +34,5 @@ Complete all modules and labs, then take the assessments:
 - [Practical Exam](a3-practical-exam) — Hands-on project, 2 hours
 
 <p style="background: #e7f3fe; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;">
-<strong>📝 Ready to certify?</strong> <a href="https://classroom.github.com/a/pVQv2MIP" target="_blank"><strong>Start Level 3 Written Exam</strong></a>
+<strong>📝 Ready to certify?</strong> <a href="https://classroom.github.com/a/3svHvvUr" target="_blank"><strong>Start Level 3 Written Exam</strong></a>
 </p>

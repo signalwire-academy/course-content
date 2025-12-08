@@ -8,7 +8,7 @@ nav_order: 99
 # Level 3 Practical Assessment
 
 <p style="background: #e7f3fe; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;">
-<strong>🎯 Assignment:</strong> <a href="https://classroom.github.com/a/tudyLwYZ" target="_blank"><strong>Accept this exam on GitHub Classroom</strong></a><br>
+<strong>🎯 Assignment:</strong> <a href="https://classroom.github.com/a/TFGGsCoG" target="_blank"><strong>Accept this exam on GitHub Classroom</strong></a><br>
 <small>You'll get your own repository. Submit your code and a recording (wav, mp3, or mp4) of your live demo.</small>
 </p>
 

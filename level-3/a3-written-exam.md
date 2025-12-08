@@ -1,6 +1,6 @@
 
 <p style="background: #e7f3fe; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;">
-<strong>📝 Take Exam:</strong> <a href="https://classroom.github.com/a/pVQv2MIP" target="_blank"><strong>Start Level 3 Written Exam</strong></a><br>
+<strong>📝 Take Exam:</strong> <a href="https://classroom.github.com/a/3svHvvUr" target="_blank"><strong>Start Level 3 Written Exam</strong></a><br>
 <small>Accept the assignment to get your exam repository. Submit answers by creating an issue.</small>
 </p>
 
