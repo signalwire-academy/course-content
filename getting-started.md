@@ -152,20 +152,28 @@ swaig-test --help
 sw-agent-init --help
 ```
 
-### Create Environment File
+### Create Environment File (Optional)
+
+You can store configuration in a `.env` file. To use it, install python-dotenv:
+
+```bash
+pip install python-dotenv
+```
 
 Create `.env` in your working directory:
 
 ```bash
-# SignalWire Credentials
+# SignalWire Credentials (for future use)
 SIGNALWIRE_SPACE_NAME=your-space
 SIGNALWIRE_PROJECT_ID=your-project-id
 SIGNALWIRE_TOKEN=your-api-token
 
-# Development Settings
-HOST=0.0.0.0
-PORT=5000
+# Agent Authentication (SDK reads these automatically)
+SWML_BASIC_AUTH_USER=signalwire
+SWML_BASIC_AUTH_PASSWORD=your-secure-password
 ```
+
+> **Note:** The `.env` file is not loaded automatically. You must call `load_dotenv()` at the start of your agent script. See Module 1.4 for details.
 
 ## Pre-Training Checklist
 
