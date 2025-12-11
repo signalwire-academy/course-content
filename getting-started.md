@@ -138,7 +138,7 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 **Required version:** >= 1.0.11
 
 ```bash
-pip install "signalwire-agents>=1.0.11"
+pip install "signalwire-agents>=1.0.16"
 ```
 
 ### Verify Installation
